@@ -1,0 +1,193 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.hero
+{
+    height: 70vh;
+    background-color: #1F2937;
+}
+.nav-head
+{
+    padding-top: 20px;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+.header-txt
+{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.header-links
+{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.header-links > ul
+{
+    
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.header-links > ul > li
+{
+    padding-right: 25px;
+}
+
+.hero-content
+{
+    width: 70%;
+    margin: 1px auto;
+
+}
+.hero-content-left
+{
+    width: 35%;
+}
+.hero-content-left > h1
+{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+.hero-content-left > p
+{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.hero-content-btn
+{
+    margin-top: 20px;
+    color: #1F2937;
+    background-color: #3882F6;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 1px solid #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+}
+.hero-content-right{
+    float: right;
+}
+.hero-content-right > img
+{
+    height: 25vh;
+}
+.randominfo
+{
+    height: 60vh;
+    width: 70%;
+    margin: 1px auto;
+}
+.randominfo-head
+{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+}
+.randominfo-informations
+{
+    padding-top: 20px;
+}
+.randominfo-informations > ul 
+{
+    display: flex;
+}
+.randominfo-informations > ul > li 
+{
+    list-style: none;
+}
+.randominfo-informations > ul > li > .box 
+{
+    border: 3px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+}
+.randominfo-informations > ul > li > p 
+{
+    font-size: 18px;
+    width: 50%;
+    text-align: justify;
+}
+.quote
+{
+    height: 50vh;
+    background-color: #E5E7EB;
+
+}
+.quote > blockquote
+{
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: italic;
+    color: #1F2937;
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 140px;
+}
+.quote > h3
+{
+    padding-left: 70vw;
+}
+.calltoaction
+{
+    height: 45vh;
+    width: 70%;
+    margin: 0px auto;
+}
+.calltoaction-group 
+{
+    height: 38%;
+    width: 100%;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 165px;
+}
+.calltoaction-text
+{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding-top: 42px;
+}
+.calltoaction-text > p 
+{
+    color: #E5E7EB;
+}
+.calltoaction-btn
+{
+    padding-top: 48px;
+
+}
+.calltoaction-btn> button
+{
+    
+    border: 3px solid #E5E7EB;
+    padding: 5px 20px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer
+{
+    background-color: #1F2937;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer > p
+{
+    color: #F9FAF8;
+    font-size: 18px;
+}
